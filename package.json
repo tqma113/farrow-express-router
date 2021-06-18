@@ -1,0 +1,48 @@
+{
+  "name": "farrow-express-router",
+  "version": "0.0.1",
+  "description": "A farrow api router for express.",
+  "main": "dist/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "Web Framework",
+    "TypeScript",
+    "Functional Programming"
+  ],
+  "author": "Ma Tianqi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tqma113/farrow-express-router.git"
+  },
+  "peerDependencies": {
+    "express": "^4.17.1",
+    "farrow-api": "^1.8.0",
+    "farrow-pipeline": "^1.8.0",
+    "farrow-schema": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/jest": "^26.0.23",
+    "@types/lodash.get": "^4.4.6",
+    "@types/supertest": "^2.0.10",
+    "express": "^4.17.1",
+    "farrow-api": "^1.10.8",
+    "farrow-pipeline": "^1.8.0",
+    "farrow-schema": "^1.10.8",
+    "jest": "^27.0.4",
+    "supertest": "^6.0.1",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  }
+}
